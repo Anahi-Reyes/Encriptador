@@ -1,0 +1,133 @@
+*{
+    background-color: #E9ECF8;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+#BotonCopiar{
+    display: none;
+}
+
+/*Header */
+
+header{
+    margin-top: 30px;
+    margin-left: 5%;
+    /*background-color: blue; */
+}
+
+/*main*/
+
+.TextArea{
+    /*background-color: blueviolet;*/
+    width: 72%;
+    height: 450px;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+}
+
+.TextArea textarea{
+    background-color: #E9ECF8;
+    width: 85%;
+    height: 90%;
+    border: none;
+    outline: none;
+    resize: none;
+    color: #052051;
+    font-size: x-large;
+}
+
+.ABotonesED{
+   /* background-color: aquamarine;*/
+    width: 900px;
+    height: 120px;
+    margin-left: 10%;
+}
+.Especificaciones{
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.Especificaciones p{
+    font-size: small;
+    color: #868E96;
+    margin-left: 10px;
+}
+
+.Especificaciones p img{
+    width: 16px;
+    height: 16px;
+}
+
+.Botones{
+    width: 900px;
+    display:flex ;
+    justify-content: space-between;
+}
+
+#BotonEncriptado{
+    background-color: #052051;
+    color: white;
+    border: solid 1px #052051;
+    border-radius: 20px;
+    width: 350px;
+    height: 67px;
+    font-size: larger;
+}
+
+#BotonDesencriptado{
+    background-color: #CED4DA;
+    color: #052051;
+    border: solid 1px #052051;
+    border-radius: 20px;
+    width: 350px;
+    height: 67px;
+    font-size: larger;
+}
+
+/*área del texto encriptado*/
+
+.container{
+    background-color: white;
+    width: 25%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 73%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+
+#TextoDesencriptado{
+    background-color: white;
+    width: 85%;
+    height: 80%;
+    border: none;
+    outline: none;
+    resize: none;
+    color: #052051;
+    font-size: medium;
+    border-radius: 30px;
+    padding: 10% 5% 0 5%;
+    margin-bottom: 8%;
+}
+
+.BtCopiar{
+    position: absolute;
+    top: 84%;
+    left: 79%;
+}
+
+.BtCopiar button{
+    color: #052051;
+    border: solid 1px #052051;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    border-radius: 12px;
+}
+
